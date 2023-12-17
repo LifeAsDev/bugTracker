@@ -1,0 +1,10 @@
+.main-container {
+  position: fixed;
+  box-sizing: border-box;
+  margin: 6rem 0 0 16rem;
+  background-color: #2b3945;
+  width: calc(100vw - 16rem);
+  height: 5000px;
+  overflow-y: scroll;
+  padding: 2rem;
+}
