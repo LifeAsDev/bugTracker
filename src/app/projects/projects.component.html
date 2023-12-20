@@ -4,14 +4,6 @@
     <div
       *ngFor="let columna of columnas; let i = index"
       class="columna-resizable"
-      resizable
-      [resizeEdges]="{ right: true }"
-      [resizeMinWidth]="50"
-      [resizeMaxWidth]="500"
-      [resizeEvent]="{ column: columna, i: i }"
-      (resizeEnd)="onResizeEnd(columna, $event.rectangle.width)"
-    >
-      {{ tarea[columna] }}
-    </div>
+    ></div>
   </div>
 </div>
